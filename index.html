@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Informing the browser that the desing is optimize and no zoom out should be applied -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-first Responsive Layout</title>
+    <!-- Linking to Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Linking to a resetting style -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="nav">
+            <li class="student-name">Giuseppe Ocello</li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="images/responsive-layout-profile.png" alt="Profile picture" class="profile-image">
+        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </header>
+
+    <!-- Section 1 Following the projects of the portfolio -->
+
+    <div class="main-div">
+        <section>
+            <h2 id="portfolio">PORTFOLIO</h2>
+            <article class="article">
+                <img src="images/portfolio-1.png" alt="My marketing project look" class="portfolio-image">
+                <h3>Marketing Page</h3>
+                <p>This project shows the front page of a marketing website meant for a specific business I'am interested in.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-2.png" alt="My search project look" class="portfolio-image">
+                <h3>Search Page</h3>
+                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-3.png" alt="The look of my travel app" class="portfolio-image">
+                <h3>Travel App</h3>
+                <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-4.png" alt="Map of favorite spots" class="portfolio-image">
+                <h3>Map of Favorite Spots</h3>
+                <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-5.png" alt="Photo gallery page" class="portfolio-image">
+                <h3>Photo Gallery</h3>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-6.png" alt="The look of a calculator" class="portfolio-image">
+                <h3>Calculator</h3>
+                <p>Someone can enter in hte numbers they want, and press the big blue button and get the result.</p>
+            </article>
+        </section>
+        <section>
+            <h2 id="skills">SKILLS</h2>
+            <article class="article">
+                <img src="images/portfolio-7.png" alt="A snippet of HTML code" class="portfolio-image">
+                <h3>HTML</h3>
+                <p>I can structure the content in my website with html.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-8.png" alt="A snippet of CSS code" class="portfolio-image">
+                <h3>CSS</h3>
+                <p>I can let my website stand out with CSS.</p>
+            </article>
+            <article class="article">
+                <img src="images/portfolio-9.png" alt="A snippet of JS code" class="portfolio-image">
+                <h3>JavaScript</h3>
+                <p>I can make my website interactive and build web application with JS.</p>
+            </article>
+        </section>
+    </div>
+
+    <!-- Section 2 contact details -->
+
+    <div class="contacts">
+        <h2 id="contact">CONTACT</h2>
+        <p>If you're interested in chating or wnat more information about what i've been working on, I'd love to hear from you!</p>
+        <ul id="contacts">
+            <li>Phone&nbsp;&nbsp;<strong>+1 (111) 555-1234</strong></li>
+            <li>E-mail&nbsp;&nbsp;<a href="mailto:email@yoursite.com?subject=Request%20for%20information"></a><strong>email@yoursite.com</strong></li>
+        </ul>
+        </div>
+
+    <footer>
+        <ul class="nav-footer">
+            <li class="name"><a href="#">Giuseppe Ocello</a></li>
+            <li class="hidden-768"><a href="#">BACK TO TOP</a></li>
+            <li class="hidden-320"><a href="#">HOME</a></li>
+            <li class="hidden-320"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="hidden-320"><a href="#skills">SKILLS</a></li>
+            <li class="hidden-320"><a href="#contact">CONTACT</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
